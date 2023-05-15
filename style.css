@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    padding: 8px 16px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #E5E7E8;
+    padding: 10px 200px;
+}
+
+
+.Intro {
+    display: flex;
+    font-size: 24px;
+}
+
+
+.Content1 {
+    background-color: #1F2937;
+    color: #E5E7E8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px 200px;
+}
+
+.Content1-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c1-heading {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.c1-content {
+    font-size: 24px;
+}
+
+.Content1-Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightImage img {
+    width: 600px;
+    height: 500px;
+}
+
+
+.Content2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.rand {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.images {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 90px;
+    max-width: 180px;
+}
+
+
+.image21,
+.image22,
+.image23,
+.image24 {
+    border-radius: 10px;
+    background-color: blue;
+    border-color: blue;
+    height: 150px;
+    width: 150px;
+}
+
+.text1 {
+    font-size: 24px;
+}
+
+.Info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 30px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #E5E7E8;
+    font-size: 18px;
+}
+
+.Quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.Writer {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 50px 350px;
+}
+
+#Gumpmom {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#Gump {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.Content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3882F6;
+    margin: 40px 300px;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.res {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res11 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.res12 {
+    font-size: 24px;
+}
+
+#res2-new {
+    border: 1px solid white;
+}
